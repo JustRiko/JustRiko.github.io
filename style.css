@@ -65,9 +65,15 @@ body{
 	list-style: none;
 	position: absolute;
 	display: none;
-	margin-left: 400px;
-	margin-top: 400px;
+	margin-left: 800px;
+	margin-top: 50px;
 }
-#AboutUs:hover .UnderAboutUs{
+.UnderAboutUsLi a{
+	color: #ADFF2F;
+	font-family: Arial;
+	font-size: 30px;
+	text-decoration: none;
+}
+.undermenu #AboutUs:hover .UnderAboutUs{
 	display: block;
 }
