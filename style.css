@@ -9,6 +9,7 @@ body{
 }
 .header-top{
 	margin-top: -70px;
+	width: 100%;
 }
 .header1{
 	margin-left: 20px;
@@ -21,6 +22,11 @@ body{
 	font-size: 30px;
 	font-family: Arial;
 	margin-left: 150px;
+	color: #ADFF2F;
+}
+.undermenu:hover{
+	background-color: #ADFF2F;
+	color: #191919;
 }
 .undermenu a{
 	color: #ADFF2F;
@@ -38,14 +44,14 @@ body{
 	margin-top: -5px;
 }
 .News-discription{
-	width: 500px;
+	width: 620px;
 	margin-left:10px;
 	margin-top: -20px;
-	font-size: 18px;
+	font-size: 22px;
 	font-family: Impact;
 }
 .likes-and-coments{
-	margin-left: 40%;
+	margin-left: 45%;
 	margin-top: -50px;
 }
 .likes-and-coments li{
@@ -54,4 +60,14 @@ body{
 }
 #likes-and-coments:hover{
 	color: #7CFC00;
+}
+.UnderAboutUs{
+	list-style: none;
+	position: absolute;
+	display: none;
+	margin-left: 400px;
+	margin-top: 100px;
+}
+#AboutUs:hover .UnderAboutUs{
+	display: block;
 }
