@@ -49,6 +49,7 @@ body{
 	margin-top: -20px;
 	font-size: 22px;
 	font-family: Impact;
+	background-color: #393939;
 }
 .likes-and-coments{
 	margin-left: 45%;
@@ -66,7 +67,7 @@ body{
 	position: absolute;
 	display: none;
 	margin-left: 800px;
-	margin-top: 50px;
+	margin-top: 10px;
 }
 .UnderAboutUsLi a{
 	color: #ADFF2F;
@@ -76,4 +77,8 @@ body{
 }
 #AboutUs:hover .UnderAboutUs{
 	display: block;
+}
+.UnderAboutUs a:hover{
+	background-color: #ADFF2F;
+	color: #191919;
 }
