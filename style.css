@@ -85,3 +85,10 @@ body{
 	font-family: Monotype Corsiva;
 	font-size: 25px;
 }
+.NewsHeader a{
+	text-decoration: none;
+}
+.NewsHeader a:hover{
+	background: #7CFC00;
+	color: #191919;
+}
