@@ -19,8 +19,8 @@ body{
 }
 .undermenu{
 	display: inline;
-	font-size: 30px;
-	font-family: Arial;
+	font-size: 40px;
+	font-family: Monotype Corsiva;
 	margin-left: 150px;
 	color: #ADFF2F;
 }
@@ -70,8 +70,8 @@ body{
 }
 .UnderAboutUsLi a{
 	color: #ADFF2F;
-	font-family: Arial;
-	font-size: 30px;
+	font-family: Monotype Corsiva;
+	font-size: 40px;
 	text-decoration: none;
 }
 #AboutUs:hover .UnderAboutUs{
@@ -80,4 +80,8 @@ body{
 .UnderAboutUs a:hover{
 	background-color: #ADFF2F;
 	color: #191919;
+}
+.footer{
+	font-family: Monotype Corsiva;
+	font-size: 25px;
 }
