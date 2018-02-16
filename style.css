@@ -94,3 +94,23 @@ h2{
 	font-size: 50px;
 	font-family: Impact;
 }
+.another_username{
+	font-family: Arial Black, Impact;
+	font-size: 30px;
+	margin-left: 10px;
+	color: aliceblue;
+}
+.another_user_title{
+	font-size: 35px;
+	font-family: "Bookman Old Style";
+	margin-left: 40px;
+}
+.another_user_discription{
+	margin-right: 10px;
+	margin-left: 30px;
+	font-family: "Comic Sans MS";
+	font-size: 25px;
+}
+.NewsHeader a:hover{
+	color: white;
+}
