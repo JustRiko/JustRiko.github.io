@@ -50,8 +50,8 @@ body{
 	width: 620px;
 	margin-top: 0px;
 	font-size: 21px;
-	font-family: Impact;
-	background-color: #393939;
+	font-family: Inconsolata;
+	color: #eeeeee;
 }
 .likes-and-coments{
 	margin-left: 45%;
@@ -128,16 +128,4 @@ h2{
 	font-family: "Comic Sans MS";
 	font-size: 30px;
 	padding-left: 20px;
-}
-#block1:hover .home-block-123 .home-block1{
-	background-color: white;
-}
-#block2:hover .home-block-123 .home-block1{
-	background-color: white;
-}
-#block3:hover .home-block-123 .home-block1{
-	background-color: white;
-}
-#block4:hover .home-block-123 .home-block1{
-	background-color: white;
 }
