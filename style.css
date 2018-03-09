@@ -1,3 +1,4 @@
+/*Menu and News page start*/
 body{
 	background-color: #292929;
 }
@@ -113,4 +114,30 @@ h2{
 }
 .NewsHeader a:hover{
 	color: white;
+}
+/*Menu and News page finish*/
+
+/*Home page start*/
+.first-title{
+	color: #7CFC00;
+	font-family: "Arial Narrow";
+	font-size: 50px;
+}
+.home-block-text{
+	color: white;
+	font-family: "Comic Sans MS";
+	font-size: 30px;
+	padding-left: 20px;
+}
+#block1:hover .home-block-123 .home-block1{
+	background-color: white;
+}
+#block2:hover .home-block-123 .home-block1{
+	background-color: white;
+}
+#block3:hover .home-block-123 .home-block1{
+	background-color: white;
+}
+#block4:hover .home-block-123 .home-block1{
+	background-color: white;
 }
