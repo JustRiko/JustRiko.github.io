@@ -124,6 +124,30 @@ h2{
 	transition-duration: 1s;
 	opacity: 0.5;
 }
+#UserComents-button{
+	color: white;
+	display: inline;
+}
+#UserComents-button:hover{
+	color: #7CFC00;
+}
+#Post-button{
+	display: inline;
+	margin-left: 935px;
+}
+.Post-button:hover{
+	color: deepskyblue;
+	background-color: white;
+}
+.Post-button{
+	color: white;
+	background-color: deepskyblue;
+	display: inline;
+	font-size: 50px;
+	border-radius: 3px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
 /*Menu and News page finish*/
 
 /*Home page start*/
