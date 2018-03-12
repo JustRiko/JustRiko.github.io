@@ -115,6 +115,15 @@ h2{
 .NewsHeader a:hover{
 	color: white;
 }
+#news-img{
+	transition: opacity;
+	transition-duration: 1s;
+}
+#news-img:hover{
+	transition: opacity;
+	transition-duration: 1s;
+	opacity: 0.5;
+}
 /*Menu and News page finish*/
 
 /*Home page start*/
@@ -124,18 +133,24 @@ h2{
 	font-size: 50px;
 }
 .home-block-text{
+	transition: color;
+	transition-duration: 1s;
 	color: white;
 	font-family: "Comic Sans MS";
 	font-size: 30px;
 	padding-left: 20px;
 }
 .home-block1{
+	transition: background-color;
+	transition-duration: 1s;
 	height: 300px;
 	width: 350px;
 	background-color: black;
 	border-radius: 15px;
 }
 .home-block-line{
+	transition: border-bottom-color, border-left-color, border-right-color, border-top-color;
+	transition-duration: 1s;
 	height: 280px;
 	width: 330px;
 	border-radius: 15px;
@@ -144,6 +159,8 @@ h2{
 	margin-top: -292px;
 }
 #home-block-icon {
+	transition: color;
+	transition-duration: 1s;
 	color: white;
 }
 #block1:hover .home-block1{
