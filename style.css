@@ -129,3 +129,68 @@ h2{
 	font-size: 30px;
 	padding-left: 20px;
 }
+.home-block1{
+	height: 300px;
+	width: 350px;
+	background-color: black;
+	border-radius: 15px;
+}
+.home-block-line{
+	height: 280px;
+	width: 330px;
+	border-radius: 15px;
+	border: white 2px solid;
+	margin-left: 8px;
+	margin-top: -292px;
+}
+#home-block-icon {
+	color: white;
+}
+#block1:hover .home-block1{
+	background-color: white;
+}
+#block1:hover .home-block-text{
+	color: #000;
+}
+#block1:hover #home-block-icon{
+	color:  #000;
+}
+#block1:hover .home-block-line{
+	border-color: #000;
+}
+#block2:hover .home-block1{
+	background-color: white;
+}
+#block2:hover .home-block-text{
+	color: #000;
+}
+#block2:hover #home-block-icon{
+	color: #000;
+}
+#block2:hover .home-block-line{
+	border-color: #000;
+}
+#block3:hover .home-block1{
+	background-color: white;
+}
+#block3:hover .home-block-text{
+	color: #000;
+}
+#block3:hover #home-block-icon{
+	color: #000;
+}
+#block3:hover .home-block-line{
+	border-color: #000;
+}
+#block4:hover .home-block1{
+	background-color: white;
+}
+#block4:hover .home-block-text{
+	color: #000;
+}
+#block4:hover #home-block-icon{
+	color: #000;
+}
+#block4:hover .home-block-line{
+	border-color: #000;
+}
