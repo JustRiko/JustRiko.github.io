@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Test</title>
+</head>
+<body>
+	<style type="text/css">
+		body{
+			background: #666;
+		}
+		#hover-test{
+			width: 550px;
+			height: 350px;
+			margin-top: 150px;
+		}
+		.hover-test{
+			width: 550px;
+			height: 350px;
+		}
+		.hover-block{
+			opacity: 0.7;
+			width: 550px;
+			height: 0px;
+			margin-top: -354px;
+			background-color: #fff;
+			transition: height;
+			transition-duration: 0.7s;
+		}
+		.hover-text{
+			margin-top: -20px;
+			padding-top: 0px; 
+			font-size: 30px;
+			opacity: 0.0;
+			transition: padding-top, opacity;
+			transition-duration: 0.7s;
+		}
+		#hover-test:hover .hover-block{
+			height: 350px;
+			transition: height;
+			transition-duration: 0.7s;
+		}
+		#hover-test:hover .hover-text{
+			transition: padding-top, opacity;
+			transition-duration: 0.7s;
+			padding-top: 175px;
+			opacity: 1.0;
+			
+		}
+	</style>
+<center><div id="hover-test"><img src="new_zeland3.jpg" class="hover-test">
+	<div class="hover-block"><b><p class="hover-text">Hello world!</p></b></div></div></center>
+</body>
+</html>
